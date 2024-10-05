@@ -14,7 +14,7 @@ const Navbar = () => {
     <>
       {/* Overlay for mobile menu */}
       <div
-        className="h-full w-full fixed duration-500"
+        className="h-full w-full fixed duration-500 z-[9999] transition-all lg:hidden top-0 left-0"
         style={{
           opacity: toggle ? 1 : 0,
           visibility: toggle ? "visible" : "hidden",
@@ -52,7 +52,7 @@ const Navbar = () => {
       </div>
 
       {/* Navbar */}
-      <header className="w-full fixed font-mono text-xl">
+      <header className="w-full h-16 top-0 left-0 font-mono z-[9999] text-2xl fixed bg-white ">
         <nav className="flex items-center justify-between p-4 shadow-xl">
           {/* Logo */}
           <div>
