@@ -1,7 +1,8 @@
-// import Footer from "./Components/Footer";
+import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomeScreen from "./screens/HomeScreen";
+import ProductScreen from "./screens/ProductScreen";
 
 const App = () => {
   return (
@@ -12,9 +13,10 @@ const App = () => {
        
           <Routes>
             <Route path="/" element={<HomeScreen/>}/>
+            <Route path="/fruits" element={<ProductScreen/>} />
           </Routes>
         </div>
-        {/* <Footer/> */}
+        <Footer/>
       </BrowserRouter>
     </>
   );

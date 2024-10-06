@@ -50,7 +50,9 @@ const Recipe = () => {
         </div>
       </div>
       <div className="flex  items-center justify-center">
-        <button className="bg-teal-500 px-8 py-3 md:text-2xl text-xl rounded-3xl m-4 text-white">View more Recipe</button>
+        <button className="bg-teal-500 px-8 py-3 md:text-2xl text-xl rounded-3xl m-4 text-white">
+          View more Recipe
+        </button>
       </div>
     </div>
   );

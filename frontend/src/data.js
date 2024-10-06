@@ -1,4 +1,4 @@
-const fruit = [
+const fruits = [
   {
     id: 1,
     name: "Apple",
@@ -24,7 +24,7 @@ const fruit = [
   {
     id: 3,
     name: "Orange",
-    category: "Fruits",
+    category: "Cirtus",
     price: 1.0,
     currency: "USD",
     description: "Sweet and juicy oranges, packed with vitamin C.",
@@ -63,12 +63,12 @@ const fruit = [
     description: "Fresh strawberries, perfect for desserts and salads.",
     stock: true,
     rating: 4.9,
-    image: "strawberry.jpg",
+    image: "stawberry.jpg",
   },
   {
     id: 7,
     name: "Kiwi",
-    category: "Fruits",
+    category: "Cirtus",
     price: 5.0,
     currency: "USD",
     description: "Sweet and nutritious blueberries, high in antioxidants.",
@@ -110,4 +110,4 @@ const fruit = [
     image: "papaya.jpg",
   },
 ];
-export default fruit;
+export default fruits;
